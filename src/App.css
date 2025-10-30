@@ -1,0 +1,14 @@
+.nav{
+  width: 100%;
+}
+
+.header{
+   display: flex;              /* make it a flex container */
+  justify-content: space-between; /* spread content apart */
+  align-items: center;        /* vertically center */
+  padding: 1rem;              /* optional: space inside */
+  background-color: #333;     /* optional: background */
+  color: rgb(255, 255, 255);               /* optional: text color */
+  width: 100%;                /* make it full width */
+
+}
