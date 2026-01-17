@@ -1,10 +1,11 @@
-import Header from './components/Header'
+import Logo from '../components/Logo';
 
-export default function HomePage(){
+function HomePage(){
     return(
-        <>
-            <Header />
-        </>
-        
+        <div className="home-page">
+            <div className="container">
+                <Logo size="large" />
+            </div>
+        </div>
     )
 }
