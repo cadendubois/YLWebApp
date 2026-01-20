@@ -1,4 +1,6 @@
 
+import logoImage from '../assets/logo.png';
+
 function Logo({ size = "medium" }) {
   const sizes = {
     small: "3rem",      // ~48px at default font size
@@ -8,7 +10,7 @@ function Logo({ size = "medium" }) {
 
   return (
     <img 
-      src="../assets/logo" 
+      src={logoImage} 
       alt="The Spot Logo" 
       className={`logo logo-${size}`}
       style={{ width: sizes[size] }}
