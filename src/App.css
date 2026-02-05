@@ -1,6 +1,30 @@
 .home-page {
-    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     background-color: var(--primary-blue);
+}
+
+.info-button-container {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-button-container {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .btn-primary {
@@ -12,3 +36,11 @@
     cursor: pointer;
     font-size: 1rem;
 }
+
+.logo {
+  width: auto;           /* Let width adjust naturally */
+  height: auto;          /* Let height adjust naturally */
+  max-width: 100%;       /* Don't exceed container */
+  object-fit: contain;   /* Preserve aspect ratio */
+}
+
